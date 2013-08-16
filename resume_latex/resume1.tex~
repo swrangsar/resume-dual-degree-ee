@@ -6,7 +6,7 @@
 \begin{document}
 \section*{}
 
-\vspace*{6\baselineskip}
+\vspace*{8\baselineskip}
 \subsection*{\uppercase{Dual Degree Project}}
 
 \subsubsection*{Implementation of cognitive radio on the USRP kit | June 2013 - till date}
@@ -69,14 +69,15 @@ $\bullet$ Used the non-linear conjugate gradient method to optimize the estimate
 \emph{Guide: Prof S N Merchant, Dept. of Electrical Engineering, IIT Bombay} \\*
   
 \noindent $\bullet$ Surveyed various ways of measuring interference temperature efficiently \\*
-$\bullet$ Became familiar with the concept of Cognitive Radio.
+$\bullet$ Became familiar with the concept of Cognitive Radio
  
 
-\subsubsection*{LED's for high speed applications (over 100 Mbps) | Mar-Apr 2013}
+\subsubsection*{LEDs for high speed applications (over 100 Mbps) | Mar-Apr 2013}
 
 \emph{Guide: Prof Joseph John, Dept. of Electrical Engineering, IIT Bombay} \\*
   
-\noindent $\bullet$ Presented a seminar on how LED's could be used for high speed fiber optic communications. LED's are cheaper, rugged and safer to handle compared to laser diodes
+\noindent $\bullet$ Presented a seminar on how LEDÕs could be used for high speed fiber optic communications \\*
+$\bullet$ LEDÕs are cheaper, rugged and safer to handle compared to laser diodes
  
 
 \subsection*{\uppercase{RELEVANT COURSES}}
