@@ -4,6 +4,10 @@
 \renewcommand{\familydefault}{\sfdefault}
 
 \begin{document}
+
+\begin{raggedright}
+ 
+
 \section*{}
 
 \vspace*{6\baselineskip}
@@ -72,19 +76,18 @@ $\bullet$ Used the non-linear conjugate gradient method to optimize the estimate
 $\bullet$ Became familiar with the concept of Cognitive Radio.
  
 
-\subsubsection*{LEDs for high speed applications (over 100 Mbps) | Mar-Apr 2013}
+\subsubsection*{LED's for high speed applications (over 100 Mbps) | Mar-Apr 2013}
 
 \emph{Guide: Prof Joseph John, Dept. of Electrical Engineering, IIT Bombay} \\*
   
-\noindent $\bullet$ Presented a seminar on how LEDÕs could be used for high speed fiber optic communications \\*
-$\bullet$ LEDs are cheaper, rugged and safer to handle compared to laser diodes
+\noindent $\bullet$ Presented a seminar on how LED's could be used for high speed fiber optic communications. LED's are cheaper, rugged and safer to handle compared to laser diodes
  
 
 \subsection*{\uppercase{RELEVANT COURSES}}
 
 Digital Communications, Probability and Random Processes, Fibre Optic Communications, 
 Communication Systems, Communications Lab, Network Theory,
-Advanced Computing for Electrical Engineers, Microprocessors.
+Advanced Computing for Electrical Engineers, Microprocessors
 
 \subsection*{\uppercase{Extra curricular}}
 
@@ -96,5 +99,7 @@ $\bullet$ \textbf{Social Service}: surveyed water and electrical resources of re
 $\bullet$ \textbf{Social Service}: taught math and physics to 6th standard students \\*
 $\bullet$ \textbf{Interests}:  Computer programming for technical problems, communications, problem solving, functional programming \\*
  
+ \end{raggedright}
+
 
 \end{document}
