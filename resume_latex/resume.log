@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.11)  15 AUG 2013 21:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.11)  16 AUG 2013 09:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -148,7 +148,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--37
 
  []
 
-Missing character: There is no Õ in font cmssbx10!
 Missing character: There is no Õ in font cmss10!
 Missing character: There is no Õ in font cmss10!
 

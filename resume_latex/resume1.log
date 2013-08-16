@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.11)  15 AUG 2013 22:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.1.11)  16 AUG 2013 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -162,7 +162,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-Missing character: There is no Õ in font cmssbx10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
@@ -189,7 +188,7 @@ fonts/cm/cmss12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmssi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb>
-Output written on resume1.pdf (2 pages, 52612 bytes).
+Output written on resume1.pdf (2 pages, 52615 bytes).
 PDF statistics:
  27 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
