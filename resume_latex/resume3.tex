@@ -6,19 +6,19 @@
 
 \usepackage[explicit]{titlesec}
 \titlespacing*{\section}
-{0pt}{1.5\baselineskip}{1\baselineskip}
+{0pt}{1.4\baselineskip}{0.7\baselineskip}
 \titlespacing*{\subsection}
-{0pt}{0.7\baselineskip}{0.4\baselineskip}
+{0pt}{0.7\baselineskip}{0pt}
 %\titleformat*{\section}{\large\bfseries\sffamily}
 %\titleformat*{\subsection}{\normalsize\bfseries\sffamily}
 \titleformat{\section}
-  {\bfseries}{\thesection}{1.3em}{\MakeUppercase{#1}}
+  {\bfseries}{\thesection}{1em}{\MakeUppercase{#1}}
  
  \titleformat{\subsection}
-  {\bfseries}{\thesection}{1.1em}{#1}
+  {\bfseries}{\thesection}{1em}{#1}
  
 \begin{document}
-\setlist[itemize]{noitemsep, topsep=5pt, leftmargin=*}
+\setlist[itemize]{noitemsep, topsep=3pt, leftmargin=*}
 \setlength{\parindent}{0pt}
  
 
@@ -30,35 +30,36 @@
 \subsection*{Implementation of cognitive radio on the USRP kit $\vert$  June 2013 - till date}
 \emph{Guide: Prof S N Merchant, Dept. of Electrical Engineering, IIT Bombay} 
 \begin{itemize}
-\item Carried out energy detection spectrum sensing to find the lowest energy frequency band   
-\item Set up calls and messages on a software defined GSM network named OpenBTS 
+\item Carried out energy detection spectrum sensing to find the lowest energy frequency band using Python
+\item Set up calls and messages on a software defined GSM network named OpenBTS
 \item Carried out a field testing of an OpenBTS network to check the interference with other nearby networks 
 \item Working on a cognitive OpenBTS system 
 \end{itemize}
 
 \section*{Programming skills}
-\textbf{Programming Languages}: C, Matlab, Python, bash scripting, Assembly for the Intel 8085 microprocessor, Octave, Verilog, Ruby, SQL, XML  \\
+\textbf{General purpose}: C, Python, Assembly for the Intel 8085 microprocessor, Verilog, Ruby \\
+\textbf{Numerical computing}: Matlab, Octave, SciPy \\
+\textbf{Miscellaneous}: bash scripting, SQL, XML, Javascript, LaTeX \\
 \textbf{Operating systems}: Unix, Linux and Mac OS X
-
 
 \section*{Course projects}
 \subsection*{Scalable video coding using wavelets $\vert$  Feb-Apr 2013}
 \emph{Guide: Prof V M Gadre, Dept. of Electrical Engineering, IIT Bombay} 
 \begin{itemize} 
-\item Compressed three different spatial resolutions of a video together into a single bitstream  
+\item Compressed three different spatial resolutions of a video together into a single bitstream using Matlab
 \item At the receiving end, uncompressed the best resolution for the bit rate available 
 \end{itemize}
 
 \subsection*{Principal Component Analysis in face recognition $\vert$  Oct-Nov 2012} 
 \emph{Guide: Prof V Rajbabu, Dept. of Electrical Engineering, IIT Bombay}  
 \begin{itemize}
-\item Implemented an iterative algorithm of using PCA in face recognition  
+\item Implemented an iterative algorithm of using PCA in face recognition using Matlab
 \end{itemize}
 
 \subsection*{Design and test an algorithm for restoring a brain image $\vert$  Sep-Nov 2012}
 \emph{Guide: Prof Arjun Arunachalam, Dept. of Electrical Engineering, IIT Bombay}  
 \begin{itemize}
-\item Implemented an algorithm to remove noise artifacts from a brain image  
+\item Implemented an algorithm to remove noise artifacts from a brain image using Matlab
 \item Used the non-linear conjugate gradient method to optimize the estimate
 \end{itemize}
 
@@ -68,17 +69,36 @@
 \item Developed an AM voice transmitter with a carrier frequency of 1 MHz, taking input from a music player via a 3.5 mm jack
 \end{itemize}
 
-\subsection*{One way selective data transmission $\vert$ Mar-Apr 2011}
-\emph{Guide: Prof Udayan Ganguly, Dept. of Electrical Engineering, IIT Bombay}
-\begin{itemize}
-\item Designed a Verilog based system to send data to multiple locations selectively and implemented it on a CPLD board
-\end{itemize}
+%\subsection*{One way selective data transmission $\vert$ Mar-Apr 2011}
+%\emph{Guide: Prof Udayan Ganguly, Dept. of Electrical Engineering, IIT Bombay}
+%\begin{itemize}
+%\item Designed a Verilog based system to send data to multiple locations selectively and implemented it on a CPLD board
+%\end{itemize}
 
 \subsection*{Mini UID for IIT Bombay Campus $\vert$  Oct-Nov 2009}
 \emph{Guide: Prof Deepak Phatak, Dept. of Computer Science and Engineering, IIT Bombay} 
 \begin{itemize}
-\item Automated fingerprint matching for the purposes of registration, verification and attendance 
+\item Automated fingerprint matching for the purposes of registration, verification and attendance
 \end{itemize}
+
+\section*{Key course assignments}
+\subsection*{Course: Advanced computing for electrical engineers $\vert$ Sep 2012}
+\emph{Guide: Prof Virendra Singh, Dept. of Electrical Engineering, IIT Bombay}
+\begin{itemize}
+\item Implemented stack, queue, double ended queue, linked list, doubly linked list, self-adjusting lists
+\item Implemented 2-3 tree, splay tree,  huffman tree and AVL tree
+\item Used C programming language for the implementation
+\end{itemize}
+
+\subsection*{Course: Speech Processing $\vert$ Autumn 2012}
+\emph{Guide: Prof Preeti Rao, Dept. of Electrical Engineering, IIT Bombay}
+\begin{itemize}
+\item Synthesized speech signals using Matlab and used DTFT to analyze them
+\item Analyzed speech signals using Linear Prediction and also re-synthesized them.
+\item Estimated the pitch of a speech signal using Cepstrum estimation
+\item Used Praat software to extract speech signals from .wav files
+\end{itemize}
+
 
 \section*{Seminars}
 \subsection*{Measurement of interference temperature $\vert$  Jan-Apr 2013} 
@@ -97,13 +117,14 @@
 \section*{Relevant courses}
 
 \subsection*{Communications}
-Digital Communications, Fibre Optic Communications, Communication Systems, 
-Communications Lab, Network Theory, Probability and Random Processes
-\subsection*{Computing}
-Advanced Computing for Electrical Engineers, Microprocessors, Microprocessors Lab, Computer Programming and Utilization
-\subsection*{Signal Processing}
-Advanced Topics in Signal Processing, Wavelets, Speech Processing, Image Processing,
-Digital Signal Processing, Signals and systems
+Digital Communications, Fibre Optic Communications, Communication Systems, Probability and Random Processes, Radiating Systems
+
+\subsection*{Computing and math}
+Advanced Computing for Electrical Engineers, Microprocessors, Microprocessors Lab, Optimization Models, Optimization Techniques
+
+%\subsection*{Signal Processing}
+%Advanced Topics in Signal Processing, Wavelets, Speech Processing, Image Processing,
+%Digital Signal Processing
 
 \section*{Extra curricular}
 \begin{itemize}
